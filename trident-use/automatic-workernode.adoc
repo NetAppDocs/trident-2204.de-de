@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: trident-use/automatic-workernode.html 
+keywords: beta feature, trident, automatic worker node, worker node prep, preparation, NFS, iSCSI 
+summary: Astra Trident kann die erforderlichen NFS- und iSCSI-Tools automatisch auf den Knoten installieren, die sich im Kubernetes-Cluster befinden. 
+---
+= Automatische Node-Vorbereitung für Mitarbeiter
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+Astra Trident kann die erforderlichen automatisch installieren `NFS` Und `iSCSI` Tools auf den Nodes im Kubernetes-Cluster vorhanden. Dies ist ein *Beta Feature* und ist *nicht für* Produktionscluster gedacht. Heute ist die Funktion für Knoten verfügbar, die *CentOS, RHEL und Ubuntu* ausführen.
+
+Diese Funktion enthält Astra Trident ein neues Flag für die Installation: `--enable-node-prep` Bei Installationen mit `tridentctl`. Verwenden Sie bei Implementierungen mit dem Operator Trident die Boolesche Option `enableNodePrep`.
+
+
+WARNING: Der `--enable-node-prep` Mit der Installationsoption muss Astra Trident installieren und sicherstellen, dass NFS- und iSCSI-Pakete und/oder -Services ausgeführt werden, wenn ein Volume auf einem Worker-Node angehängt ist. Dies ist eine *Beta-Funktion*, die in Entwicklungs-/Testumgebungen eingesetzt werden soll, die *nicht für den Produktionseinsatz qualifiziert ist.
+
+Wenn der `--enable-node-prep` Flag ist enthalten für die Implementierung von Astra Trident mit `tridentctl`, Hier ist, was passiert:
+
+. Im Rahmen der Installation registriert Astra Trident die Knoten, auf denen es ausgeführt wird.
+. Wird eine PVC-Anfrage (Persistent Volume Claim) gestellt, erstellt Astra Trident aus einem der von ihm verwalteten Back-Ends ein PV.
+. Wenn Sie PVC in einem POD verwenden, muss Astra Trident das Volume auf dem Node installieren, auf dem der POD läuft. Astra Trident versucht, die erforderlichen NFS/iSCSI-Client-Utilities zu installieren und sicherzustellen, dass die erforderlichen Services aktiv sind. Dies erfolgt, bevor das Volume angehängt wird.
+
+
+Die Vorbereitung eines Worker-Knotens erfolgt nur einmal im Rahmen des ersten Mounten eines Volumes. Alle nachfolgenden Volume-Mounts sollten erfolgreich sein, solange keine Änderungen außerhalb des Astra Trident erforderlich sind `NFS` Und `iSCSI` Versorgungsunternehmen
+
+Auf diese Weise kann Astra Trident sicherstellen, dass alle Nodes in einem Kubernetes Cluster über die erforderlichen Utilities verfügen, die zum Mounten und Verbinden von Volumes erforderlich sind. Bei NFS-Volumes sollte die Exportrichtlinie auch das Einlegen des Volumes zulassen. Trident kann Exportrichtlinien pro Backend automatisch managen. Alternativ können Benutzer auch Exportrichtlinien out-of-Band managen.
