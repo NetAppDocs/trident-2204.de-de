@@ -193,10 +193,10 @@ Bei luftvergaschten Installationen ist die folgende Liste eine Referenz für Con
 | V1.20.0  a| 
 * netapp/Trident:22.04.0
 * netapp/Trident: 22.04
-* K8s.gcr.io/sig-Storage/csi-bereitstellung:v2.2.2
+* K8s.gcr.io/sig-Storage/csi-bereitstellung:v3.1.0
 * K8s.gcr.io/sig-Storage/csi-Attacher:v3.4.0
 * K8s.gcr.io/sig-Storage/csi-resizer:v1.4.0
-* K8s.gcr.io/sig-Storage/csi-Snapshots:v3.0.3
+* K8s.gcr.io/sig-Storage/csi-Snapshots:v5.0.1
 * K8s.gcr.io/sig-Storage/csi-Node-driver-registrar:v2.5.0
 * netapp/Trident-Operator:22.04.0 (optional)
 
@@ -206,10 +206,10 @@ Bei luftvergaschten Installationen ist die folgende Liste eine Referenz für Con
 | V1.21,0  a| 
 * netapp/Trident:22.04.0
 * netapp/Trident: 22.04
-* K8s.gcr.io/sig-Storage/csi-bereitstellung:v2.2.2
+* K8s.gcr.io/sig-Storage/csi-bereitstellung:v3.1.0
 * K8s.gcr.io/sig-Storage/csi-Attacher:v3.4.0
 * K8s.gcr.io/sig-Storage/csi-resizer:v1.4.0
-* K8s.gcr.io/sig-Storage/csi-Snapshots:v3.0.3
+* K8s.gcr.io/sig-Storage/csi-Snapshots:v5.0.1
 * K8s.gcr.io/sig-Storage/csi-Node-driver-registrar:v2.5.0
 * netapp/Trident-Operator:22.04.0 (optional)
 
@@ -219,10 +219,10 @@ Bei luftvergaschten Installationen ist die folgende Liste eine Referenz für Con
 | V1.22.0  a| 
 * netapp/Trident:22.04.0
 * netapp/Trident: 22.04
-* K8s.gcr.io/sig-Storage/csi-bereitstellung:v2.2.2
+* K8s.gcr.io/sig-Storage/csi-bereitstellung:v3.1.0
 * K8s.gcr.io/sig-Storage/csi-Attacher:v3.4.0
 * K8s.gcr.io/sig-Storage/csi-resizer:v1.4.0
-* K8s.gcr.io/sig-Storage/csi-Snapshots:v3.0.3
+* K8s.gcr.io/sig-Storage/csi-Snapshots:v5.0.1
 * K8s.gcr.io/sig-Storage/csi-Node-driver-registrar:v2.5.0
 * netapp/Trident-Operator:22.04.0 (optional)
 
@@ -232,10 +232,10 @@ Bei luftvergaschten Installationen ist die folgende Liste eine Referenz für Con
 | V1.23.0  a| 
 * netapp/Trident:22.04.0
 * netapp/Trident: 22.04
-* K8s.gcr.io/sig-Storage/csi-bereitstellung:v2.2.2
+* K8s.gcr.io/sig-Storage/csi-bereitstellung:v3.1.0
 * K8s.gcr.io/sig-Storage/csi-Attacher:v3.4.0
 * K8s.gcr.io/sig-Storage/csi-resizer:v1.4.0
-* K8s.gcr.io/sig-Storage/csi-Snapshots:v3.0.3
+* K8s.gcr.io/sig-Storage/csi-Snapshots:v5.0.1
 * K8s.gcr.io/sig-Storage/csi-Node-driver-registrar:v2.5.0
 * netapp/Trident-Operator:22.04.0 (optional)
 
