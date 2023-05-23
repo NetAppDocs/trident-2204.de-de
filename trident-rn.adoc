@@ -29,13 +29,13 @@ IMPORTANT: Wenn Sie ein Upgrade von früheren Trident Versionen durchführen und
 
 === Korrekturen
 
-* Verbessertes Analysieren von iSCSI-Initiatornamen. (Ausgabe [#681](https://github.com/NetApp/trident/issues/681))[]
-* Das Problem wurde behoben, bei dem CSI-Speicherklassenparameter nicht zulässig waren. (Ausgabe [#598](https://github.com/NetApp/trident/issues/598))[]
-* Doppelte Schlüsseldeklaration im Trident CRD behoben. (Ausgabe [#671](https://github.com/NetApp/trident/issues/671))[]
-* Fehlerhafte CSI-Snapshot-Protokolle wurden korrigiert. (Ausgabe [#629](https://github.com/NetApp/trident/issues/629))[]
-* Problem beim Aufheben der Veröffentlichung von Volumes auf gelöschten Nodes behoben. (Ausgabe [#691](https://github.com/NetApp/trident/issues/691))[]
-* Zusätzliche Bearbeitung von Inkonsistenzen im Dateisystem auf Blockgeräten. (Ausgabe [#656](https://github.com/NetApp/trident/issues/656))[]
-* Problem beim Ziehen von Bildern mit automatischer Unterstützung beim Einstellen des behoben `imageRegistry` Markierung während der Installation. (Ausgabe [#715](https://github.com/NetApp/trident/issues/715))[]
+* Verbessertes Analysieren von iSCSI-Initiatornamen. (Ausgabe [#681]
+* Das Problem wurde behoben, bei dem CSI-Speicherklassenparameter nicht zulässig waren. (Ausgabe [#598]
+* Doppelte Schlüsseldeklaration im Trident CRD behoben. (Ausgabe [#671]
+* Fehlerhafte CSI-Snapshot-Protokolle wurden korrigiert. (Ausgabe [#629]
+* Problem beim Aufheben der Veröffentlichung von Volumes auf gelöschten Nodes behoben. (Ausgabe [#691]
+* Zusätzliche Bearbeitung von Inkonsistenzen im Dateisystem auf Blockgeräten. (Ausgabe [#656]
+* Problem beim Ziehen von Bildern mit automatischer Unterstützung beim Einstellen des behoben `imageRegistry` Markierung während der Installation. (Ausgabe [#715]
 * Das Problem wurde behoben, bei dem der ANF-Treiber ein Volume mit mehreren Exportregeln nicht klonen konnte.
 
 
@@ -43,10 +43,10 @@ IMPORTANT: Wenn Sie ein Upgrade von früheren Trident Versionen durchführen und
 
 === Vorgestellt Werden
 
-* Eingehende Verbindungen zu den sicheren Endpunkten von Trident erfordern jetzt mindestens TLS 1.3. (Ausgabe [#698](https://github.com/NetApp/trident/issues/698))[]
+* Eingehende Verbindungen zu den sicheren Endpunkten von Trident erfordern jetzt mindestens TLS 1.3. (Ausgabe [#698]
 * Trident fügt jetzt HSTS-Header zu den Antworten von seinen sicheren Endpunkten hinzu.
 * Trident versucht nun, die Azure NetApp Files unix Berechtigungsfunktion automatisch zu aktivieren.
-* *Kubernetes*: Trident Demonset wird jetzt in der Klasse mit System-Node-kritischer Priorität ausgeführt. (Ausgabe [#694](https://github.com/NetApp/trident/issues/694))[]
+* *Kubernetes*: Trident Demonset wird jetzt in der Klasse mit System-Node-kritischer Priorität ausgeführt. (Ausgabe [#694]
 
 
 
