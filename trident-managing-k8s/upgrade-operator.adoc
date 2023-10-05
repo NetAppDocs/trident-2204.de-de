@@ -20,7 +20,7 @@ Zur Aktualisierung mit Hilfe des Bedieners sollten die folgenden Bedingungen erf
 * Sie sollten über eine CRD-basierte Trident Installation verfügen. Dies entspricht allen Versionen von 19.07 und höher. Wenn Sie eine CSI-basierte Installation haben, verfügen Sie wahrscheinlich über eine CRD-basierte Installation.
 * Wenn Sie CSI Trident deinstalliert haben und die Metadaten aus der Installation beibehalten werden, können Sie mithilfe des Operators ein Upgrade durchführen.
 * Es sollte nur eine Astra Trident Installation über alle Namespaces in einem bestimmten Kubernetes Cluster hinweg vorhanden sein.
-* Sie sollten ein Kubernetes-Cluster verwenden, der ausgeführt wird link:requirements.html["Version 1.18 - 1.24"^].
+* Sie sollten ein Kubernetes-Cluster verwenden, der ausgeführt wird  link:../trident-get-started/requirements.html["Version 1.18 - 1.24"^].
 * Wenn Alpha-Snapshot-CRDs vorhanden sind, sollten Sie sie mit entfernen `tridentctl obliviate alpha-snapshot-crd`. Dadurch werden die CRDs für die Alpha-Snapshot-Spezifikation gelöscht. Informationen zu vorhandenen Snapshots, die gelöscht/migriert werden sollen, finden Sie unter https://netapp.io/2020/01/30/alpha-to-beta-snapshots/["Diesem Blog"^].
 
 
@@ -69,7 +69,7 @@ Version:  v20.10.1
 ----
 +
 
-NOTE: Wenn der Status angezeigt wird `Updating`, Stellen Sie sicher, dass Sie es lösen, bevor Sie fortfahren. Eine Liste möglicher Statuswerte finden Sie unter https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-deploy-operator.html["Hier"^].
+NOTE: Wenn der Status angezeigt wird `Updating`, Stellen Sie sicher, dass Sie es lösen, bevor Sie fortfahren. Eine Liste möglicher Statuswerte finden Sie unter link:../kubernetes-deploy-operator.html["Hier"^].
 
 . Erstellen Sie die `TridentOrchestrator` CRD mit dem Manifest, das mit dem Trident-Installer bereitgestellt wurde.
 +
@@ -86,7 +86,7 @@ $ kubectl create -f deploy/crds/trident.netapp.io_tridentorchestrators_crd_post1
 . Löschen Sie den Operator Namespace-Scoped mithilfe des Manifests. Um diesen Schritt abzuschließen, benötigen Sie die `bundle.yaml` Datei, die für die Bereitstellung des Operatoren für Namespace-Scoped verwendet wird. Sie erhalten können `bundle.yaml` Von https://github.com/NetApp/trident/blob/stable/v20.10/deploy/bundle.yaml["Trident Repository"^]. Stellen Sie sicher, dass Sie den entsprechenden Zweig verwenden.
 +
 
-NOTE: Sie sollten die erforderlichen Änderungen an den Trident Installationsparametern vornehmen (z. B. Ändern der Werte für `tridentImage`, `autosupportImage`, Ein privates Image Repository von und das `imagePullSecrets`) Nach dem Löschen des Operator Namespace-scoped und vor der Installation des Operators Cluster-scoped. Eine vollständige Liste der Parameter, die aktualisiert werden können, finden Sie im link:../trident-deploy-k8s/kubernetes-customize-deploy.html["Liste der Parameter"^].
+NOTE: Sie sollten die erforderlichen Änderungen an den Trident Installationsparametern vornehmen (z. B. Ändern der Werte für `tridentImage`, `autosupportImage`, Ein privates Image Repository von und das `imagePullSecrets`) Nach dem Löschen des Operator Namespace-scoped und vor der Installation des Operators Cluster-scoped. Eine vollständige Liste der Parameter, die aktualisiert werden können, finden Sie im link:../kubernetes-customize-deploy.html["Liste der Parameter"].
 
 +
 [listing]
