@@ -1028,8 +1028,6 @@
   <block id="485e8e209b502a7975830960817b875e" category="paragraph">Wenn Astra Trident 22.04 nicht ausgeführt wird, ist die Dokumentation zu früheren Versionen verfügbar.</block>
   <block id="4af8991c21dff2f779496b8350d1124b" category="inline-link">Astra Trident 22.01</block>
   <block id="7669b0b69333e81c7c208aea3d1a3c6f" category="list-text"><block ref="7669b0b69333e81c7c208aea3d1a3c6f" category="inline-link-rx"></block></block>
-  <block id="cce172403b73af5c2a4e93081affcc7f" category="inline-link">Astra Trident 21.10</block>
-  <block id="606b9e83fb467a43b3065d4fd5037094" category="list-text"><block ref="606b9e83fb467a43b3065d4fd5037094" category="inline-link-rx"></block></block>
   <block id="e20acf6d4b1275a0b5d2eb01c845adff" category="summary">NetApp unterstützt Trident auf unterschiedliche Weise. Umfassende kostenlose Self-Support-Optionen stehen rund um die Uhr zur Verfügung, beispielsweise ein Slack-Channel.</block>
   <block id="db5eb84117d06047c97c9a0191b5fffe" category="doc">Unterstützung</block>
   <block id="14340f3a4eb25a54f8446036d807d7c8" category="paragraph">Astra Trident ist ein offiziell unterstütztes NetApp Projekt. Sie können sich mit einem der Standardmechanismen an NetApp wenden und erhalten den benötigten Support der Enterprise-Klasse.</block>
@@ -3099,4 +3097,17 @@ Weitere Informationen finden Sie unter <block ref="04cf7258a315ca08f4b436c194fef
   <block id="f8b52d963f246a75dc6c8b78c954a4fd" category="list-text"><block ref="f8b52d963f246a75dc6c8b78c954a4fd" category="inline-link-rx"></block></block>
   <block id="b6780b7b2561935ff862fe7126cde751" category="list-text"><block ref="b6780b7b2561935ff862fe7126cde751" category="inline-link-rx"></block></block>
   <block id="b9a641d903e611a87a5e68ac7fdb0b84" category="list-text">Trident AutoSupport erfasst oder übermittelt keine personenbezogenen Daten oder personenbezogenen Daten. Sie wird mit einem geliefert<block ref="173a360b412944768c2ab13e6c8fd1c7" category="inline-link-rx"></block> , das sich nicht für das Trident Container-Image selbst eignet. Weitere Informationen zum Engagement von NetApp für Datensicherheit und Vertrauen finden<block ref="d3cc55401bc8303e01c6b0c43ba0733f" category="inline-link-rx"></block>Sie hier.</block>
+  <block id="6c0abaa198495bc62a07a25b5120401b" category="sidebar">Astra Trident ist ein Open-Source-Tool zur Storage-bereitstellung und -Orchestrierung mit Unterstützung von NetApp. Die Software ermöglicht die Erstellung von Storage Volumes für Container-Applikationen, die von Docker und Kubernetes gemanagt werden. Vollständige Versionsinformationen, einschließlich Änderungen an Patch-Releases, finden Sie unter https://docs.netapp.com/us-en/trident/trident-rn.html.</block>
+  <block id="dfc322d478fc59cd6375362d8dad7bc0" category="sidebar">Wichtige Informationen zu Kubernetes 1.25</block>
+  <block id="1fe917b01f9a3f87fa2d7d3b7643fac1" category="sidebar">FAQ</block>
+  <block id="312b0dc38b01ff32c1b2f5f81ee1ab2d" category="sidebar">Implementierung mit dem Trident Operator</block>
+  <block id="6a693eb5cd23e4e5743663c7edc37aed" category="sidebar">Implementieren Sie Astra Trident für Docker</block>
+  <block id="386307d41b3f4169a1e6e046a727cdd2" category="sidebar">Upgrade mit Trident Operator</block>
+  <block id="81a123ccab93cd947289b672b0e50348" category="sidebar">Demos und Lernprogramme</block>
+  <block id="28348a71bed382b86fa6de4d3a307715" category="sidebar">Astra Trident-Videos</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">Blogs und Community</block>
+  <block id="6394eceb2639574114b02e6e817eb19a" category="sidebar">Astra-Blogs</block>
+  <block id="874d8a5301794a9ca2aba132ac2460f3" category="sidebar">Kubernetes Hub</block>
+  <block id="d59c00abbeaf33a9a094b3a69c563405" category="sidebar">NetApp.io</block>
+  <block id="8f5cc6430613f1c12f36965050bb7197" category="sidebar">Abschnur</block>
 </blocks>
