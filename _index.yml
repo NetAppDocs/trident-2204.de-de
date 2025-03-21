@@ -11,7 +11,7 @@ indexpage:
     Vollständige Versionsinformationen, einschließlich Änderungen an Patch-Releases,
     finden Sie unter https://docs.netapp.com/us-en/trident/trident-rn.html.
   tiles:
-  - title: Wichtige Informationen zu Kubernetes 1.25
+  - title: Kritische Informationen zu Kubernetes 1.24
     links:
     - title: Anforderungen
       url: "/trident-get-started/requirements.html"
